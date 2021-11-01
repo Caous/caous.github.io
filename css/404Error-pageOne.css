@@ -1,0 +1,39 @@
+.notfound .notfound-404 h1 {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 252px;
+    font-weight: 900;
+    margin: 0px;
+    color: #FF4F5E;
+    text-transform: uppercase;
+    letter-spacing: -40px;
+}
+
+.notfound .notfound-404 {
+    position: relative;
+    height: 240px;
+}
+
+.text-center-page {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-width: 910px;
+    width: 100%;
+    line-height: 1.4;
+    text-align: center;
+}
+
+h5{
+    color:white
+}
+
+h3{
+    color: white;
+}

@@ -1,0 +1,25 @@
+body {
+    background-color: #141c5b;
+    font-family     : 'Rubik';
+    color           : white;
+    text-transform  : uppercase
+}
+
+.text-center-page {
+    position         : absolute;
+    left             : 50%;
+    top              : 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform    : translate(-50%, -50%);
+    transform        : translate(-50%, -50%);
+    max-width        : 910px;
+    width            : 100%;
+    line-height      : 1.4;
+    text-align       : center;
+}
+
+.btn {
+    font-family   : 'Rubik';
+    color         : black;
+    text-transform: uppercase
+}

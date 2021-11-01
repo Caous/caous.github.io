@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Login One</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="overview &amp; stats" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <!-- Carregando BootStrap -->
+    <link rel="stylesheet" href="../../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../../css/pageLoad/page_load_one.css" />
+</head>
+
+<body>
+    <section class="text-center-page card-center p-5 color-body-context">
+        <section class="row">
+            <section class="col-lg-12">
+                <img src="../../img/computador.gif" width="50%" alt="Imagem usuário de login" />
+            </section>
+            <section class="col-lg-12">
+                <h1>Seja bem-vindo desenvolvedor</h1>
+                <h5>Página de Loader Page</h5>
+            </section>
+        </section>
+    </section>
+    <div class="loader-wrapper" >
+        <div class="row">
+            <div class="col-lg-12">
+                <img src="../../img/linguagem-de-programação.png" style="text-align: center;"
+                    alt="Imagem usuário de login" />
+            </div>
+            <div class="col-lg-12" id="message" style="margin-left: 25%;">Loading Page...</div>
+        </div>
+    </div>
+
+
+
+    <!-- Carregando JS -->
+
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+
+    <script src="../../js/bootstrap.min.js"></script>
+    <script>
+        $(window).on("load",function(){
+          $(".loader-wrapper").fadeOut(4000);
+        });
+    </script>
+</body>
+
+</html>

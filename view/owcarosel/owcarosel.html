@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Owl Carosel</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="overview &amp; stats" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <!-- Carregando BootStrap -->
+    <link rel="stylesheet" href="../../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../../css/owcarosel/owcarosel_example.css" />
+
+    <!-- Owl Carossel -->
+    <link rel="stylesheet" href="../../assets/OwlCarosel/owl.carousel.min.css">
+    <link rel="stylesheet" href="../../assets/OwlCarosel/owl.theme.default.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
+
+        <div class="container-fluid p-2 ">
+
+            <span class="navbar-text text-white">
+                <h5>
+                    < Execute Tech />
+                    </h3>
+            </span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="nav  text-white">
+                    <li class="nav-item text-white">
+                        <a class="nav-link active text-white" href="#">Página Atual</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Link 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Link 2</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link disabled text-white" href="#" tabindex="-1"
+                            aria-disabled="true">Manutenção</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <img src="../../img/binario.jpg"/>
+        </div>
+        <div class="item">
+            <img src="../../img/codigo.jpg"/>
+        </div>
+        <div class="item">
+            <img src="../../img/computador.gif"/>
+        </div>
+        <div class="item">
+            <img src="../../img/hackchina.jpg"/>
+        </div>
+        <div class="item">
+            <img src="../../img/hackercomputador.jpg"/>
+        </div>
+        <div class="item">
+            <img src="../../img/hackermodelo.jpg"/>
+        </div>
+        <div class="item">
+            <img src="../../img/notebook.jpg"/>
+        </div>
+        <div class="item">
+            <img src="../../img/binario.jpg"/>
+        </div>
+        <div class="item">
+            <img src="../../img/computador.gif"/>
+        </div>      
+    </div>
+
+    <!-- Carregando JS -->
+
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+
+    <script src="../../js/bootstrap.min.js"></script>
+
+    <!-- Owl Carosel -->
+    <script src="../../js/OwlCarosel/owl.carousel.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 3
+                    }
+                },
+                autoplay: true,
+                autoplayTimeout: 1000,
+                autoplayHoverPause: true,
+                autoHeight:false
+            })
+        });
+    </script>
+</body>
+
+</html>

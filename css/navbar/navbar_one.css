@@ -1,0 +1,31 @@
+body{
+    background-color: #024278; 
+    font-family: Rubik;
+    color: white
+}
+
+.text-center-page {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-width: 910px;
+    width: 100%;
+    line-height: 1.4;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.text-white{
+    color:white
+}
+
+a {
+    color: #FFF;
+}
+  
