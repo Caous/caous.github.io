@@ -20,7 +20,8 @@
 
     <link rel="stylesheet" href="assets/font-awesome-4.5.0-master/css/font-awesome.min.css" />
 
-   
+
+
 </head>
 
 <body>
@@ -33,7 +34,11 @@
                     <h1>bem-vindo as grandes ideias começaram de pequena ações</h1>
                     <hr>
                     <h5>Espero que encontre oque deseja clique na seta</h5>
-                    <img src="img/arrow_down_double.png" width="5%" href="#teste">
+                    <!-- <img src="img/arrow_down_double.png" width="5%" href="#teste"> -->
+                    <!-- <button class="btn btn-sm btn-info" type="button" href="#teste">Teste</button> -->
+                    <div class="img_arround_down p-5">
+                        <a class="" id="link_start" href="#teste"><img src="img/arrow_down_double.png" width="5%"></a>
+                    </div>
                 </section>
             </section>
         </section>
@@ -62,7 +67,7 @@
                         <a class="nav-link active text-white" href="#">Execute Tech</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Portfólios</a>
+                        <a class="nav-link text-white" href="#">Projetos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#">Conhecimentos</a>
@@ -98,27 +103,29 @@
         <section class="d-flex justify-content-center bd-highlight mb-3 flex-wrap">
             <section class="p-2 bd-highlight">
                 <section class="p-2 bd-highlight flex-fill">
-                    <img src="img/Logo_Execute_Tech_Fundo_Preto.png" width="250vh">
+                    <img src="img/Logo_Execute_Tech_Fundo_Amarelo.png" width="250vh">
                 </section>
                 <section class="d-flex justify-content-center bd-highlight mb-3">
                     <section class="p-2 bd-highlight">
-                        <img src="img/Logo_Execute_Tech_Fundo_Amarelo.png" width="100vh">
+                        <img src="img/Logo_Execute_Tech_Nome_Tecnologia_Fundo_Azul.png" width="100vh">
                     </section>
                     <section class="p-2 bd-highlight" style="text-align: right;">
                         <img src="img/Logo_Execute_Tech_Fundo_Branco.png" width="100vh">
                     </section>
                 </section>
             </section>
-            <section class="p-2 bd-highlight text-right f-weight-350">
+            <section class="p-2 bd-highlight text-right-justify  f-weight-350 mx-width-650">
                 <h4>Execute Tech</h4>
-                <p>Afinal oque é Execute Tech? Execute Tech é uma iniciativa, formada e idealizada <br>
-                    pelo Gustavo, onde seu objetivo é apenas um, poder ajudar todos a entrar na área,<br> se
-                    especializar e criar uma forma de realizarem seus sonhos. <br>
-                    Assim como aconteceu com ele, o setor de técnologia é enorme e sua necessidade<br> é grande
-                    mas nem sempre conseguimos conquistar tudo que desejamos<br> da forma que queremos, e só podemos
-                    conseguimos se nos apoiarmos e juntarmos.
+                <p>Afinal oque é Execute Tech? Execute Tech é uma iniciativa, formada e idealizada
+                    pelo Gustavo, onde seu objetivo é apenas um, poder ajudar todos a entrar na área, se
+                    especializar e criar uma forma de realizarem seus sonhos.
+                    Assim como aconteceu com ele, o setor de tecnologia é enorme e sua necessidade é grande,
+                    mas nem sempre conseguimos conquistar tudo que desejamos da forma que queremos, então desta forma
+                    temos o imenso prazer de lhes apresentar Execute Tech uma forma de ensinar na prática oque é o
+                    mundo Tech.
                 </p>
-                <button class="btn btn-sm btn-info text-uppercase f-weight-400">Instragram</button>
+                <a class="btn btn-sm btn-info text-uppercase f-weight-400"
+                    href="https://www.instagram.com/tech.execute/" target="_blank">Instragram</a>
             </section>
         </section>
     </section>
@@ -127,81 +134,170 @@
     <section class="bg-conhecimento">
         <section class="d-flex justify-content-center bd-highlight mb-3">
             <section class="p-2 bd-highlight" style="text-align: justify;">
-                <h1>Conhecer é poder</h1>
+                <h1 class="text-uppercase f-weight-400">Conhecer é poder</h1>
 
             </section>
 
         </section>
         <section class="d-flex justify-content-center bd-highlight mb-3 flex-wrap">
-            <div class="d-flex bd-highlight">
+            <section class="d-flex bd-highlight">
                 <section class="p-2 bd-highlight">
                     <section class="p-2 bd-highlight flex-fill">
-                        <div class="d-flex flex-row bd-highlight mb-3">
-                            <div class="p-2 bd-highlight"><img src="img/CSHARP.png" width="200vh"></div>
-                            <div class="p-2 bd-highlight">
-                                <p>Desbloqueio da habilidade na <br>linguagem de programação csharp</p>
-                            </div>
-                        </div>
+                        <section class="d-flex flex-row bd-highlight mb-3">
+                            <section class="p-2 bd-highlight">
+                                <img src="img/CSHARP.png" width="200vh">
+                            </section>
+                            <section class="p-2 bd-highlight">
+                                <p class="mx-width-300 text-left-justify">Desbloqueio da habilidade C# (CSharp),
+                                    linguagem de programação com diversas
+                                    possibilidades, como .Net, WindowsForm, ASP.NET e muitos mais</p>
+                            </section>
+                        </section>
                     </section>
                     <section class="p-2 bd-highlight flex-fill">
-                        <div class="d-flex flex-row bd-highlight mb-3">
-                            <div class="p-2 bd-highlight"><img src="img/java.png" width="200vh"></div>
-                            <div class="p-2 bd-highlight">
-                                <p>Desbloqueio da habilidade na <br>linguagem de programação csharp</p>
-                            </div>
-                        </div>
+                        <section class="d-flex flex-row bd-highlight mb-3">
+                            <section class="p-2 bd-highlight"><img src="img/java.png" width="200vh"></section>
+                            <section class="p-2 bd-highlight">
+                                <p class="mx-width-300 text-left-justify">Desbloqueio da habilidade Java,
+                                    linguagem de programação com diversas
+                                    possibilidades, como JSP, JavaForm, SpringBoot e muitos mais</p>
+                            </section>
+                        </section>
                     </section>
                     <section class="p-2 bd-highlight flex-fill">
-                        <div class="d-flex flex-row bd-highlight mb-3">
-                            <div class="p-2 bd-highlight"><img src="img/python.png" width="200vh"></div>
-                            <div class="p-2 bd-highlight">
-                                <p>Desbloqueio da habilidade na <br>linguagem de programação csharp</p>
-                            </div>
-                        </div>
+                        <section class="d-flex flex-row bd-highlight mb-3">
+                            <section class="p-2 bd-highlight"><img src="img/python.png" width="200vh"></section>
+                            <section class="p-2 bd-highlight">
+                                <p class="mx-width-300 text-left-justify">Desbloqueio da habilidade Python,
+                                    linguagem de programação com diversas
+                                    possibilidades, como Automações, Boots, DataScience entre outras possibilidades</p>
+                            </section>
+                        </section>
                     </section>
                 </section>
-            </div>
-            <div class="d-flex bd-highlight">
+            </section>
+            <section class="d-flex bd-highlight">
                 <section class="p-2 bd-highlight">
                     <section class="p-2 bd-highlight flex-fill">
-                        <div class="d-flex flex-row bd-highlight mb-3">
-                            <div class="p-2 bd-highlight"><img src="img/sql.png" width="200vh"></div>
-                            <div class="p-2 bd-highlight">
-                                <p>Desbloqueio da habilidade na <br>linguagem de programação csharp</p>
-                            </div>
-                        </div>
+                        <section class="d-flex flex-row bd-highlight mb-3">
+                            <section class="p-2 bd-highlight"><img src="img/sql.png" width="200vh"></section>
+                            <section class="p-2 bd-highlight">
+                                <p class="mx-width-300 text-left-justify">Desbloqueio da habilidade SQL/NoSQL,
+                                    linguagem para banco de dados
+                                    com infinitas possiblidade com banco de dados relacionais com SGBD e não relacionais
+                                    que podem armazenar diretamente um objeto por exemplo</p>
+                            </section>
+                        </section>
                     </section>
                     <section class="p-2 bd-highlight flex-fill">
-                        <div class="d-flex flex-row bd-highlight mb-3">
-                            <div class="p-2 bd-highlight"><img src="img/aws.png" width="200vh"></div>
-                            <div class="p-2 bd-highlight">
-                                <p>Desbloqueio da habilidade na <br>linguagem de programação csharp</p>
-                            </div>
-                        </div>
+                        <section class="d-flex flex-row bd-highlight mb-3">
+                            <section class="p-2 bd-highlight"><img src="img/aws.png" width="200vh"></section>
+                            <section class="p-2 bd-highlight">
+                                <p class="mx-width-300 text-left-justify">Desbloqueio da habilidade AWS,
+                                    com AWS podemos utilizar diversos serviços como hospedagem, banco de dados e muitos
+                                    mais</p>
+                            </section>
+                        </section>
                     </section>
                     <section class="p-2 bd-highlight flex-fill">
-                        <div class="d-flex flex-row bd-highlight mb-3">
-                            <div class="p-2 bd-highlight"><img src="img/github.png" width="200vh"></div>
-                            <div class="p-2 bd-highlight">
-                                <p>Desbloqueio da habilidade na <br>linguagem de programação csharp</p>
-                            </div>
-                        </div>
+                        <section class="d-flex flex-row bd-highlight mb-3">
+                            <section class="p-2 bd-highlight"><img src="img/github.png" width="200vh"></section>
+                            <section class="p-2 bd-highlight">
+                                <p class="mx-width-300 text-left-justify">Desbloqueio da habilidade Versionamento de
+                                    Projetos,
+                                    podemos versionar projetos em diversas plataformas como GitHub, TFS, RTC e outros
+                                </p>
+                            </section>
+                        </section>
                     </section>
                 </section>
-            </div>
+            </section>
 
         </section>
-        <section class="d-flex justify-content-center bd-highlight ">
+        <section class="d-flex justify-content-center bd-highlight p-3">
             <section class="p-2 bd-highlight" style="text-align: justify;">
-                <button class="btn btn-sm btn-success">Saiba Mais</button>
+                <button class="btn btn-sm btn-success text-uppercase">Saiba Mais</button>
 
             </section>
 
         </section>
     </section>
 
+    <!-- Projetos -->
+
+    <section class="p-3" style="background-color: #141c5b;">
+        <section class="row">
+            <section class="col-sm-2 p-3" style="border-right: 4px solid #FFF;">
+                <h1 class="text-white text-uppercase f-weight-400">Projetos</h1>
+                <p class="f-weight-350 text-left-justify">Ao longo da minha carreira de 6 anos como desenvolvedor,
+                    acabei criando skills importantes, para gerir um projeto, mas quais projetos estou falando bom
+                    podemos tentar resumir alguns por tópicos:
+                </p>
+                <p class="f-weight-350 text-left-justify">
+                    <i class="fa fa-check-circle " aria-hidden="true" style="color:green"></i> Automação<br>
+                    <i class="fa fa-check-circle " aria-hidden="true" style="color:green"></i> ERP<br>
+                    <i class="fa fa-check-circle " aria-hidden="true" style="color:green"></i> CRM<br>
+                    <i class="fa fa-check-circle " aria-hidden="true" style="color:green"></i> WorkFlow<br>
+                    <i class="fa fa-check-circle " aria-hidden="true" style="color:green"></i> Relatórios<br>
+                    <i class="fa fa-check-circle " aria-hidden="true" style="color:green"></i> Integrações<br>
+                </p>
+            </section>
+            <section class="col-sm-10 p-3">
+                <section class="row">
+                    <section class="col-sm-4 col-lg-4 p-1">
+                        <section class="container_img_title">
+                            <img src="img/ERP.jpg"
+                                style="display: block; width: 100%; height: auto; border-radius: 5px; box-shadow         : 6px 6px 0.5em rgba(202, 202, 202, 0.247);">
+                            <section class="overlay_title">ERP(Entreprise Resource Planning)</section>
+                        </section>
+                    </section>
+                    <section class="col-sm-3 col-lg-3 p-1">
+                        <section class="container_img_title"
+                            style="box-shadow         : 6px 6px 1em rgba(202, 202, 202, 0.247);">
+                            <img src="img/highcharts.png"
+                                style="display: block; width: 100%; height: auto; border-radius: 5px;">
+                            <section class="overlay_title">Relatórios Sintéticos & Analíticos</section>
+                        </section>
+                    </section>
+                    <section class="col-sm-5 col-lg-5 p-1">
+                        <section class="container_img_title"
+                            style="box-shadow         : 6px 6px 1em rgba(202, 202, 202, 0.247);">
+                            <img src="img/crm.png"
+                                style="display: block; width: 100%; height: auto; border-radius: 5px;">
+                            <section class="overlay_title">CRM(Customer Relationship Management)</section>
+                        </section>
+                    </section>
+                    <section class="col-sm-5 col-lg-5 p-1">
+                        <section class="container_img_title"
+                            style="box-shadow         : 6px 6px 1em rgba(202, 202, 202, 0.247);">
+                            <img src="img/workflow.png"
+                                style="display: block; width: 100%; height: auto; border-radius: 5px;">
+                            <section class="overlay_title">WorkFlow (Projetos para atender fluxo de trabalho)</section>
+                        </section>
+                    </section>
+                    <section class="col-sm-4 col-lg-4 p-1">
+                        <section class="container_img_title"
+                            style="box-shadow         : 6px 6px 1em rgba(202, 202, 202, 0.247);">
+                            <img src="img/hackercomputador.jpg"
+                                style="display: block; width: 100%; height: auto; border-radius: 5px;">
+                            <section class="overlay_title">My Name is John</section>
+                        </section>
+                    </section>
+                    <section class="col-sm-3 col-lg-3 p-1">
+                        <section class="container_img_title"
+                            style="box-shadow         : 6px 6px 1em rgba(202, 202, 202, 0.247);">
+                            <img src="img/codigo.jpg"
+                                style="display: block; width: 100%; height: auto; border-radius: 5px;">
+                            <section class="overlay_title">My Name is John</section>
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </section>
+
     <!-- Carreira -->
-    <section class="p-3" style="background-color: #46028b;">
+    <section class="p-3 bg-career" style="background-color: #46028b;">
 
         <section class="d-flex justify-content-center bd-highlight mb-3">
             <section class="p-2 bd-highlight">
@@ -209,9 +305,9 @@
             </section>
         </section>
 
-        <div class="timeline">
-            <div class="container_time_line left">
-                <div class="content">
+        <section class="timeline">
+            <section class="container_time_line left">
+                <section class="content">
                     <h2>Curso técnico</h2>
                     <h4>Senac Largo Treze - Técnico de Informática <span>[2017 - 2018]</span></h4>
                     <p>
@@ -226,10 +322,10 @@
                         paguei meu próprio curso tive a oportunidade e dei a cara a tapa para meus professores, onde
                         consegui estágios e freelancers no segundo semestre do curso.
                     </p>
-                </div>
-            </div>
-            <div class="container_time_line right">
-                <div class="content">
+                </section>
+            </section>
+            <section class="container_time_line right">
+                <section class="content">
                     <h2>Action Cargo</h2>
                     <h4>Desenvolvedor .Net <span>[2018 - 2020]</span></h4>
                     <p>
@@ -244,10 +340,10 @@
                         estagiário e fui efetivado 3 meses após minha entrada, consegui destacar meus conhecimentos em
                         programação e como lidar com usuário, deste o levantamento do projeto até mesmo sua manutenção.
                     </p>
-                </div>
-            </div>
-            <div class="container_time_line left">
-                <div class="content">
+                </section>
+            </section>
+            <section class="container_time_line left">
+                <section class="content">
                     <h2>Faculdade</h2>
                     <h4>Análise Desenvolvimento de Sistemas <span>[2019 - 2021]</span></h4>
                     <p>
@@ -261,10 +357,10 @@
                     </p>
                     <p>Entrei na faculdade para expandir meus conhecimentos e criar network.
                     </p>
-                </div>
-            </div>
-            <div class="container_time_line right">
-                <div class="content">
+                </section>
+            </section>
+            <section class="container_time_line right">
+                <section class="content">
                     <h2>Indra Company</h2>
                     <h4>Desenvolvedor .Net para o Banco Itaú e Rede <span>[2018 - 2020]</span></h4>
                     <p>
@@ -279,10 +375,10 @@
                         estagiário e fui efetivado 3 meses após minha entrada, consegui destacar meus conhecimentos em
                         programação e como lidar com usuário, deste o levantamento do projeto até mesmo sua manutenção.
                     </p>
-                </div>
-            </div>
-            <div class="container_time_line left">
-                <div class="content">
+                </section>
+            </section>
+            <section class="container_time_line left">
+                <section class="content">
                     <h2>Execute Tech</h2>
                     <h4>Instagram</h4>
                     <p>
@@ -295,34 +391,32 @@
                         estagiário e fui efetivado 3 meses após minha entrada, consegui destacar meus conhecimentos em
                         programação e como lidar com usuário, deste o levantamento do projeto até mesmo sua manutenção.
                     </p>
-                </div>
-            </div>
-        </div>
+                </section>
+            </section>
+        </section>
     </section>
 
     <!-- Me conheça -->
     <section class="p-3 bg-t-yellow-black">
         <section class="d-flex justify-content-center bd-highlight mb-3 flex-wrap">
-            <section class="p-2 bd-highlight text-justify">
+            <section class="p-2 bd-highlight text-justify mx-width-800 f-weight-350">
                 <h4 class="text-uppercase f-weight-400">Me conheça</h4>
-                <p class="f-weight-350"><i class="fa fa-pencil" aria-hidden="true"></i> No momento que assumo minha ignorancia que não sei de nada, passo a me permitir aprender</p>
-                <p class="f-weight-350">Sobre nosso mundo de TI acredito que a técnologia ao mesmo tempo que nos conecta com as pessoas<br>
-                    nos deixa longe delas porque neste momento que vemos como a tecnologia nos conecta em mundo
-                    virtual<br>
-                    podemos ver também que deixamos de lado coisas simples, como poder ajudar o próximo a ingressar a
-                    área</p>
-                <p class="f-weight-350">No momento em que assumo minha ignorancia que não sei nada, neste momento me abro para ouvir o
-                    mundo<br>
-                    e neste momento estou apto para aprender e saber cultivar esse entendimento</p>
-                <p class="f-weight-350">Acredito que a vida é uma dadiva que precisa ser conquistada, independente de onde esteja<br>
-                    dificuldade que esteja passando basta ter força de vontade, e um segredo que não te contam procure
-                    pessoas que estejam<br>
-                    ao seu lado para te ajudar.
-                </p>
-                <p class="f-weight-350">Meritocracia deve ser conquistada caso eu não veja que isso ocorra eu sempre irei procurar<br>o
-                    melhor para mim porque a final somos indiduos individuais</p>
-                <p class="f-weight-350"> <i class="fa fa-globe" aria-hidden="true" style="color: green;"></i> Nacionalidade: Brasileiro<br> <i class="fa fa-map-marker" aria-hidden="true"
-                    style="color: #000;"></i> Morando na região sul de São Paulo próximo ao Morumbi
+                <p><i class="fa fa-book" style="color: #2F9E0C;" aria-hidden="true"></i> Sempre aprender, tolo é aquele
+                    que acha que sabe de
+                    tudo.</p>
+                <p><i class="fa fa-pencil" style="color: #9E4F05;" aria-hidden="true"></i> No momento que assumo minha
+                    ignorancia que não sei de nada, passo a me permitir aprender.</p>
+                <p>Adoro tecnologia, entrei na área por desde pequeno gostar de computadores, sempre jogando em
+                    computador ou video game, passei a me interessar pela área, hoje em dia desenvolvedor Fullstack,
+                    atuando no banco Itaú, estou mais centralizado na parte de negócio, fazendo programas para atender o
+                    cliente, mas sempre a frente de um time, levantando projeto, datas, backlog e afins. Sempre
+                    aprendendo e me especializando, mas agora com uma nova jornada, querer ensinar e dar oportunidade
+                    aqueles que querem ingressar na área.</p>
+                <p>Meritocracia deve ser conquistada caso eu não veja que isso ocorra eu sempre irei procuraro
+                    melhor para mim porque a final somos indiduos individuais.</p>
+                <p> <i class="fa fa-globe" aria-hidden="true" style="color: green;"></i>
+                    Nacionalidade: Brasileiro<br> <i class="fa fa-map-marker" aria-hidden="true"
+                        style="color: #000;"></i> Morando na região sul de São Paulo próximo ao Morumbi
                 </p>
 
             </section>
@@ -373,9 +467,12 @@
                     <section class="p-2 bd-highlight text-roda-pe">Redes Sociais </section>
 
                 </section>
-                <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
-                <i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
-                <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
+                <a href="https://www.instagram.com/gusta.nascimento/" target="_blank"><i class="fa fa-instagram fa-3x"
+                        aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/gustavo.santos.54540218/" target="_blank"><i
+                        class="fa fa-facebook fa-3x" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/gusta-nascimento/" target="_blank"><i
+                        class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
             </section>
 
         </section>
@@ -394,6 +491,32 @@
     <script src="js/jquery-3.6.0.min.js"></script>
 
     <script src="js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // Add smooth scrolling to all links
+            $("#link_start").on('click', function (event) {
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
 
 </body>
 
